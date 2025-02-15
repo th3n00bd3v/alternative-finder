@@ -31,6 +31,6 @@ A **static interactive website** to search for alternative software and tools, s
 ├── 📜 styles.css          # CSS for styling
 ├── 📜 script.js           # JavaScript for interactivity
 ├── 📜 README.md           # Project documentation
-
+```
 
 More enhancements coming soon. Stay tuned!
