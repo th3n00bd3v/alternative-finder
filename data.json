@@ -1,0 +1,174 @@
+[
+    {
+      "category": "Alternative Software Directories",
+      "tools": [
+        {
+          "name": "Alternativeto.net",
+          "functionality": "Site for finding Alternate Tools/Websites/Softwares",
+          "alternatives": [
+            {"name": "PrivacyTools.io"},
+            {"name": "alternative.me"},
+            {"name": "sitelike.org", "note": "Only for websites"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "API & Testing Tools",
+      "tools": [
+        {
+          "name": "Postman",
+          "functionality": "API Testing",
+          "alternatives": [
+            {"name": "Hoppscotch"},
+            {"name": "Requestly"},
+            {"name": "Apidog"},
+            {"name": "REST Assured"},
+            {"name": "Rapid API"},
+            {"name": "Katalon"},
+            {"name": "SoapUI"},
+            {"name": "Chapar"}
+          ]
+        },
+        {
+          "name": "Selenium",
+          "functionality": "Automation Testing Framework",
+          "alternatives": [
+            {"name": "Cypress"},
+            {"name": "Playwright"},
+            {"name": "Puppeteer"},
+            {"name": "Testcafe"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Web Browsers",
+      "tools": [
+        {
+          "name": "Google Chrome",
+          "functionality": "Web Browser",
+          "alternatives": [
+            {"name": "Brave Browser"},
+            {"name": "Chromium"},
+            {"name": "Microsoft Edge"},
+            {"name": "Bromite/Cromite", "note": "Android"},
+            {"name": "Ecosia", "note": "Android/PC"}
+          ]
+        },
+        {
+          "name": "Mozilla Firefox",
+          "functionality": "Web Browser",
+          "alternatives": [
+            {"name": "Waterfox"},
+            {"name": "Librewolf"},
+            {"name": "Zen Browser"},
+            {"name": "Ice Raven"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Productivity Tools",
+      "tools": [
+        {
+          "name": "Keep Notes",
+          "functionality": "Note-taking app",
+          "alternatives": [
+            {"name": "OneNote"},
+            {"name": "Sticky Notes"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Virtualization & Emulation",
+      "tools": [
+        {
+          "name": "Virtualbox",
+          "functionality": "Virtualization Platform",
+          "alternatives": [
+            {"name": "VMWare"},
+            {"name": "QEmu/QTemu"},
+            {"name": "Multipass", "note": "Only for Ubuntu"},
+            {"name": "VectrasVM", "note": "Android"}
+          ]
+        },
+        {
+          "name": "Bluestacks",
+          "functionality": "Android Emulator",
+          "alternatives": [
+            {"name": "Anbox/Anbox Cloud"},
+            {"name": "Waydroid"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Development & Code Editors",
+      "tools": [
+        {
+          "name": "VSCode",
+          "functionality": "Code Editor",
+          "alternatives": [
+            {"name": "VSCodium"},
+            {"name": "Neovim"},
+            {"name": "Geany"},
+            {"name": "Fleet"}
+          ]
+        },
+        {
+          "name": "Sublime",
+          "functionality": "Text Editor",
+          "alternatives": [
+            {"name": "Light Table"},
+            {"name": "Phoenix (Brackets)"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "PDF & Document Management",
+      "tools": [
+        {
+          "name": "Adobe PDF Reader",
+          "functionality": "PDF Reader and Editor",
+          "alternatives": [
+            {"name": "SumatraPDF"}
+          ]
+        },
+        {
+          "name": "PDFSam (Basic)",
+          "functionality": "PDF Modifier and Merger Tool",
+          "alternatives": [
+            {"name": "Stirling PDF", "link": "https://stirling.io"},
+            {"name": "PDF24 Creator"},
+            {"name": "Tinywow"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "functionality": "AI Chat Tool",
+          "alternatives": [
+            {"name": "ClaudeAI"},
+            {"name": "Perplexity"},
+            {"name": "OpenAI"},
+            {"name": "Gemini"},
+            {"name": "DeepAI"},
+            {"name": "Agent GPT"},
+            {"name": "DeepSeek-R1"},
+            {"name": "Ollama", "note": "Offline"},
+            {"name": "Jan AI", "note": "Offline"},
+            {"name": "Private GPT", "note": "Offline"},
+            {"name": "Anything LLM", "note": "Offline"}
+          ]
+        }
+      ]
+    }
+  ]
+  

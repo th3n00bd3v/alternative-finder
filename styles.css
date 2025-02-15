@@ -1,0 +1,171 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Collapsible Category Styling */
+.category {
+    margin: 15px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.category h2 {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category h2:hover {
+    background: #0056b3;
+}
+
+.category h2::after {
+    content: " ▼";
+    font-size: 14px;
+}
+
+.category.collapsed h2::after {
+    content: " ▶";
+}
+
+.category .tools-list {
+    display: none;
+    padding: 15px;
+    background: #f9f9f9;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.category.collapsed .tools-list {
+    display: block;
+}
+
+/* Tool Item Styling */
+.tool {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.tool h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.tool p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.tool ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tool ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.tool ul li:hover {
+    background: #ddd;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background: #0056b3;
+}
+
+.dark-mode .category {
+    background: #333;
+    color: white;
+}
+
+.dark-mode .category h2 {
+    background: #0056b3;
+}
+
+.dark-mode .tools-list {
+    background: #444;
+}
+
+.dark-mode .tool {
+    background: #555;
+}
+
+.dark-mode .tool ul li {
+    background: #666;
+}
+
+.dark-mode .tool ul li:hover {
+    background: #777;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
