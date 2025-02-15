@@ -165,7 +165,8 @@
             {"name": "Ollama", "note": "Offline"},
             {"name": "Jan AI", "note": "Offline"},
             {"name": "Private GPT", "note": "Offline"},
-            {"name": "Anything LLM", "note": "Offline"}
+            {"name": "Anything LLM", "note": "Offline"}, 
+            {"name": "Deepseek R1"},
           ]
         }
       ]
