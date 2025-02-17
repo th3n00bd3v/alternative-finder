@@ -10,7 +10,7 @@ body {
 /* Header Styling */
 header {
     text-align: center;
-    background: #007bff;
+    background: #2f3132;
     color: white;
     padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -30,14 +30,14 @@ input, select, button {
 }
 
 button {
-    background: #007bff;
+    background: #3d4146;
     color: white;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #2f3031;
 }
 
 /* Collapsible Category Styling */
@@ -51,7 +51,7 @@ button:hover {
 }
 
 .category h2 {
-    background: #007bff;
+    background: #3d4146;
     color: white;
     padding: 15px;
     margin: 0;
@@ -63,7 +63,7 @@ button:hover {
 }
 
 .category h2:hover {
-    background: #0056b3;
+    background: #2f3031;
 }
 
 .category h2::after {
@@ -130,7 +130,7 @@ button:hover {
 }
 
 .dark-mode header {
-    background: #0056b3;
+    background: #2f3031;
 }
 
 .dark-mode .category {
@@ -139,7 +139,7 @@ button:hover {
 }
 
 .dark-mode .category h2 {
-    background: #0056b3;
+    background: #2f3031;
 }
 
 .dark-mode .tools-list {
