@@ -4,11 +4,13 @@
       "tools": [
         {
           "name": "Alternativeto.net",
-          "functionality": "Site for finding Alternate Tools/Websites/Softwares",
+          "functionality": "Alternative or Recommendations to popular Tools/Websites/Softwares.",
           "alternatives": [
-            {"name": "PrivacyTools.io"},
-            {"name": "alternative.me"},
-            {"name": "sitelike.org", "note": "Only for websites"}
+            {"name": "PrivacyTools.io", "link":"https://www.privacytools.io"},
+            {"name": "Alternative.me", "link": "https://alternative.me"}, 
+            {"name": "Slant.co", "link": "https://www.slant.co"},
+            {"name": "Product Hunt", "link": "https://www.producthunt.com"},
+            {"name": "sitelike.org", "link":"http://sitelike.org", "note": "Only for websites"}
           ]
         }
       ]
@@ -165,7 +167,8 @@
             {"name": "Ollama", "note": "Offline"},
             {"name": "Jan AI", "note": "Offline"},
             {"name": "Private GPT", "note": "Offline"},
-            {"name": "Anything LLM", "note": "Offline"}
+            {"name": "Anything LLM", "note": "Offline"},
+            {"name": "Deepseek R1", "note": "Offline"}
           ]
         }
       ]
