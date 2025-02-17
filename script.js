@@ -95,14 +95,14 @@ document.addEventListener("DOMContentLoaded", () => {
         toolsData.forEach(category => {
             category.tools.sort((a, b) => nameSortAsc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
         });
-        sortByNameButton.textContent = nameSortAsc ? "🔤 Sort by Name ▲" : "🔤 Sort by Name ▼";
+        sortByNameButton.textContent = nameSortAsc ? "🔤 Name ▲" : "🔤 Name ▼";
         displayTools(toolsData);
     }
 
     function sortByCategory() {
         categorySortAsc = !categorySortAsc;
         toolsData.sort((a, b) => categorySortAsc ? a.category.localeCompare(b.category) : b.category.localeCompare(a.category));
-        sortByCategoryButton.textContent = categorySortAsc ? "📂 Sort by Category ▲" : "📂 Sort by Category ▼";
+        sortByCategoryButton.textContent = categorySortAsc ? "📂 Category ▲" : "📂 Category ▼";
         displayTools(toolsData);
     }
 
