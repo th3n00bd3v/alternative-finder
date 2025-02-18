@@ -1,10 +1,10 @@
 [
     {
-      "category": "Alternative Software Directories",
+      "category": "Alternative Software",
       "tools": [
         {
           "name": "Alternativeto.net",
-          "functionality": "Alternative or Recommendations to popular Tools/Websites/Softwares.",
+          "functionality": "Alternate Tools/Site Finder.",
           "alternatives": [
             {"name": "PrivacyTools.io", "link":"https://www.privacytools.io"},
             {"name": "Alternative.me", "link": "https://alternative.me"}, 
@@ -20,26 +20,31 @@
       "tools": [
         {
           "name": "Postman",
-          "functionality": "API Testing",
+          "functionality": "API Development and Testing.",
           "alternatives": [
-            {"name": "Hoppscotch"},
-            {"name": "Requestly"},
-            {"name": "Apidog"},
-            {"name": "REST Assured"},
-            {"name": "Rapid API"},
-            {"name": "Katalon"},
-            {"name": "SoapUI"},
-            {"name": "Chapar"}
+            {"name": "Hoppscotch", "link":"https://hoppscotch.io"},
+            {"name": "Requestly","link":"https://requestly.com"},
+            {"name": "Insomnia", "link":"https://insomnia.rest"},
+            {"name": "Thunder Client", "link":"https://www.thunderclient.com"},
+            {"name": "HTTPie", "link":"https://httpie.io"},
+            {"name": "Apidog", "link":"https://apidog.com"},
+            {"name": "REST Assured", "link":"https://rest-assured.io"},
+            {"name": "Rapid API", "link":"https://rapidapi.com", "note":"API Marketplace"},
+            {"name": "Katalon", "link":"https://katalon.com/api-testing"},
+            {"name": "Karate", "link":"https://www.karatelabs.io"},
+            {"name": "SoapUI", "link":"https://www.soapui.org"},
+            {"name": "Chapar", "link":"https://chapar.rest"},
+            {"name": "Advanced REST Client", "link":"https://install.advancedrestclient.com"}
           ]
         },
         {
           "name": "Selenium",
-          "functionality": "Automation Testing Framework",
+          "functionality": "Automation Testing Framework.",
           "alternatives": [
-            {"name": "Cypress"},
-            {"name": "Playwright"},
-            {"name": "Puppeteer"},
-            {"name": "Testcafe"}
+            {"name": "Cypress", "link":"https://www.cypress.io"},
+            {"name": "Playwright","link":"https://www.playwright.dev"},
+            {"name": "Puppeteer","link":"https://pptr.dev/"},
+            {"name": "Testcafe","link":"https://testcafe.io"}
           ]
         }
       ]
