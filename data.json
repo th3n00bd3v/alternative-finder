@@ -34,7 +34,9 @@
             {"name": "Karate", "link":"https://www.karatelabs.io"},
             {"name": "SoapUI", "link":"https://www.soapui.org"},
             {"name": "Chapar", "link":"https://chapar.rest"},
-            {"name": "Advanced REST Client", "link":"https://install.advancedrestclient.com"}
+            {"name": "Advanced REST Client", "link":"https://install.advancedrestclient.com"},
+            {"name": "Apiary", "link":"https://apiary.io"},
+            {"name": "Restlet", "link":"https://restlet.talend.com"}
           ]
         },
         {
