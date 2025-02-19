@@ -67,12 +67,12 @@ button:hover {
 }
 
 .category h2::after {
-    content: " ▼";
+    content: "▼";
     font-size: 14px;
 }
 
 .category.collapsed h2::after {
-    content: " ▶";
+    content: "▲";
 }
 
 .category .tools-list {
