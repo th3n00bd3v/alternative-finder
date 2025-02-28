@@ -10,6 +10,7 @@
             {"name": "Alternative.me", "link": "https://alternative.me"}, 
             {"name": "Slant.co", "link": "https://www.slant.co"},
             {"name": "Product Hunt", "link": "https://www.producthunt.com"},
+            {"name": "Open Source Alternative To", "link": "https://www.opensourcealternative.to"},
             {"name": "sitelike.org", "link":"http://sitelike.org", "note": "Only for websites"}
           ]
         }
