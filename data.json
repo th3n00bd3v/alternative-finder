@@ -131,8 +131,9 @@
           "name": "Sublime",
           "functionality": "Text Editor",
           "alternatives": [
-            {"name": "Light Table"},
-            {"name": "Phoenix (Brackets)"}
+            {"name": "Light Table","link":"http://lighttable.com/"},
+            {"name": "Phoenix", "link":"https://phcode.dev/"},
+            {"name": "Brackets", "link":"https://brackets.io/"}
           ]
         }
       ]
@@ -144,7 +145,7 @@
           "name": "Adobe PDF Reader",
           "functionality": "PDF Reader and Editor",
           "alternatives": [
-            {"name": "SumatraPDF"}
+            {"name": "SumatraPDF","link":"https://www.sumatrapdfreader.org/free-pdf-reader"}
           ]
         },
         {
