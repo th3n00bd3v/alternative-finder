@@ -8,26 +8,44 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+
     <header>
         <h1>Alternative Tools Directory</h1>
+        <p class="hero-text">Discover open source alternatives to popular tools. Search, filter, and explore!</p>
 
-        <input type="text" id="search" placeholder="Search tools...">
+        <input type="text" id="search" placeholder="Search tools..." aria-label="Search tools">
         
-        <select id="category-filter">
+        <select id="category-filter" aria-label="Filter by category">
             <option value="">All Categories</option>
         </select>
 
         <div class="buttons">
-            <button id="sort-name">🔤 Name ▲▼</button>
-            <button id="sort-category">📂 Category ▲▼</button>
-            <button id="toggle-dark-mode">🌙</button>
+            <button id="sort-name" title="Sort by Name">🔤 Name ▲▼</button>
+            <button id="sort-category" title="Sort by Category">📂 Category ▲▼</button>
+            <button id="toggle-dark-mode" title="Toggle dark mode">🌙</button>
         </div>
     </header>
 
-    <main id="tools-container"></main>
+    <div id="loading-spinner" class="spinner" aria-live="polite" style="display:none;">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <span>Loading tools...</span>
+    </div>
+
+    <main id="tools-container" aria-live="polite"></main>
+
+    <!-- Modal for tool details -->
+    <div id="tool-modal" class="modal" aria-modal="true" role="dialog" style="display:none;">
+        <div class="modal-content">
+            <span class="close" id="close-modal" title="Close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
 
     <footer>
-        <p>Created with ❤️ for Open Source Enthusiasts</p>
+        <div class="footer-content">
+            <p>Created with <span aria-label="love">❤️</span> for Open Source Enthusiasts</p>
+            <p>© 2025 Alternative Finder.</p>
+        </div>
     </footer>
 </body>
 </html>
