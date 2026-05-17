@@ -11,11 +11,6 @@ A **static interactive website** to search for alternative software and tools, s
 
 ---
 
-## 🚀 **Live Demo**  
-[🔗 View on Vercel](https://alternative-finder.vercel.app) *(Update after deployment)*  
-
----
-
 ## 🛠️ **Technologies Used**  
 - HTML  
 - CSS  
