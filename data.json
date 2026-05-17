@@ -63,7 +63,8 @@
             {"name": "Chromium"},
             {"name": "Microsoft Edge"},
             {"name": "Bromite/Cromite", "note": "Android"},
-            {"name": "Ecosia", "note": "Android/PC"}
+            {"name": "Ecosia", "note": "Android/PC"},
+            {"name": "Helium"}
           ]
         },
         {
