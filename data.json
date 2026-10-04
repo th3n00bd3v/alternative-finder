@@ -59,22 +59,27 @@
           "name": "Google Chrome",
           "functionality": "Web Browser",
           "alternatives": [
-            {"name": "Brave Browser"},
-            {"name": "Chromium"},
-            {"name": "Microsoft Edge"},
-            {"name": "Bromite/Cromite", "note": "Android"},
-            {"name": "Ecosia", "note": "Android/PC"},
-            {"name": "Helium"}
+            {"name": "Brave Browser", "link":"https://brave.com"},
+            {"name": "Vivaldi", "link":"https://vivaldi.com"},
+            {"name": "Opera", "link":"https://opera.com"},
+            {"name": "Iridium Browser", "link":"https://iridiumbrowser.de/"},
+            {"name": "Ungoogled Chromium", "link":"https://ungoogled-software.github.io/"},
+            {"name": "Chromium", "link":"https://www.chromium.org/"},
+            {"name": "Microsoft Edge", "link":"https://www.microsoft.com/en-us/edge"},
+            {"name": "Bromite/Cromite", "link": "https://github.com/bromite/bromite", "note": "Android"},
+            {"name": "Ecosia", "link":"https://ecosia.org", "note": "Android/PC"},
+            {"name": "Helium", "link":"https://helium.computer"}
           ]
         },
         {
           "name": "Mozilla Firefox",
           "functionality": "Web Browser",
           "alternatives": [
-            {"name": "Waterfox"},
-            {"name": "Librewolf"},
-            {"name": "Zen Browser"},
-            {"name": "Ice Raven"}
+            {"name": "Waterfox", "link":"https://waterfox.net/"},
+            {"name": "Librewolf", "link":"https://librewolf.net/"},
+            {"name": "Zen Browser", "link":"https://zen-browser.app/"},
+            {"name": "Ice Raven", "link":"https://github.com/fork-maintainers/iceraven-browser", "note": "Android"},
+            {"name": "Ironfox Browser", "link":"https://github.com/ironfox-browser/ironfox-browser", "note": "Android"}
           ]
         }
       ]
@@ -86,8 +91,11 @@
           "name": "Keep Notes",
           "functionality": "Note-taking app",
           "alternatives": [
-            {"name": "OneNote"},
-            {"name": "Sticky Notes"}
+            {"name": "OneNote", "link":"https://www.onenote.com/"},
+            {"name": "Joplin", "link":"https://joplinapp.org/"},
+            {"name": "Obsidian", "link":"https://obsidian.md/"},
+            {"name": "Standard Notes", "link":"https://standardnotes.com/"},
+            {"name": "Evernote", "link":"https://evernote.com/"}
           ]
         }
       ]
@@ -99,18 +107,18 @@
           "name": "Virtualbox",
           "functionality": "Virtualization Platform",
           "alternatives": [
-            {"name": "VMWare"},
-            {"name": "QEmu/QTemu"},
-            {"name": "Multipass", "note": "Only for Ubuntu"},
-            {"name": "VectrasVM", "note": "Android"}
+            {"name": "VMWare", "link":"https://www.vmware.com/"},
+            {"name": "QEmu/QTemu", "link":"https://www.qemu.org/"},
+            {"name": "Multipass", "link":"https://multipass.run/", "note": "Ubuntu-only VM"},
+            {"name": "VectrasVM", "link":"https://getvectras.com/", "note": "Android"}
           ]
         },
         {
           "name": "Bluestacks",
           "functionality": "Android Emulator",
           "alternatives": [
-            {"name": "Anbox/Anbox Cloud"},
-            {"name": "Waydroid"}
+            {"name": "Anbox/Anbox Cloud", "link":"https://anbox.io/"},
+            {"name": "Waydroid", "link":"https://waydroid.io/"}
           ]
         }
       ]
@@ -122,10 +130,10 @@
           "name": "VSCode",
           "functionality": "Code Editor",
           "alternatives": [
-            {"name": "VSCodium"},
-            {"name": "Neovim"},
-            {"name": "Geany"},
-            {"name": "Fleet"}
+            {"name": "VSCodium", "link":"https://vscodium.com/"},
+            {"name": "Neovim", "link":"https://neovim.io/"},
+            {"name": "Geany", "link":"https://www.geany.org/"},
+            {"name": "Fleet", "link":"https://fleet.sh/"}
           ]
         },
         {
@@ -151,11 +159,15 @@
         },
         {
           "name": "PDFSam (Basic)",
-          "functionality": "PDF Modifier and Merger Tool",
+          "functionality": "PDF Modifier and Merger",
           "alternatives": [
             {"name": "Stirling PDF", "link": "https://stirling.io"},
             {"name": "PDF24 Creator"},
-            {"name": "Tinywow"}
+            {"name": "Tinywow", "link": "https://tinywow.com"},
+            {"name": "Sejda", "link": "https://www.sejda.com"},
+            {"name": "PDF Candy", "link": "https://pdfcandy.com"},
+            {"name": "iLovePDF", "link": "https://www.ilovepdf.com"},
+            {"name": "PDF-XChange Editor", "link": "https://www.tracker-software.com/product/pdf-xchange-editor"}
           ]
         }
       ]
@@ -165,20 +177,38 @@
       "tools": [
         {
           "name": "ChatGPT",
-          "functionality": "AI Chat Tool",
+          "functionality": "AI Chatbot and Assistant",
           "alternatives": [
-            {"name": "ClaudeAI"},
-            {"name": "Perplexity"},
-            {"name": "OpenAI"},
-            {"name": "Gemini"},
-            {"name": "DeepAI"},
-            {"name": "Agent GPT"},
-            {"name": "DeepSeek-R1"},
-            {"name": "Ollama", "note": "Offline"},
-            {"name": "Jan AI", "note": "Offline"},
-            {"name": "Private GPT", "note": "Offline"},
-            {"name": "Anything LLM", "note": "Offline"},
-            {"name": "Deepseek R1", "note": "Offline"}
+            {"name": "ClaudeAI", "link": "https://claude.ai/"},
+            {"name": "Perplexity", "link": "https://www.perplexity.ai/"},
+            {"name": "OpenAI", "link": "https://openai.com/"},
+            {"name": "Gemini", "link": "https://gemini.google.com/"},
+            {"name": "DeepAI", "link": "https://www.deepai.org/"},
+            {"name": "Agent GPT", "link": "https://agentgpt.reworkd.ai/"},
+            {"name": "DeepSeek-R1", "link": "https://www.deepseek.com/"}
+          ]
+        }, 
+        {
+          "name": "Ollama",
+          "functionality": "AI chat application",
+          "alternatives": [
+            {"name": "Jan AI", "link": "https://jan.ai/"},
+            {"name": "Private GPT", "link": "https://privategpt.ai/"},
+            {"name": "Anything LLM", "link": "https://anythingllm.com/"}
+          ]
+        }, 
+        {
+          "name": "Codex",
+          "functionality": "AI IDE and Pair Programmer",
+          "alternatives": [
+            {"name": "OpenCode", "link": "https://opencode.ai/"},
+            {"name": "Google Antigravity", "link": "https://antigravity.google.com/"},
+            {"name": "Github Copilot App", "link": "https://github.com/features/ai/github-app"},
+            {"name": "Claude Code", "link": "https://claude.ai/"},
+            {"name": "Cursor", "link": "https://www.cursor.so/"},
+            {"name": "Devin Desktop", "link": "https://devin.ai/desktop"},
+            {"name": "Kiro", "link": "https://kiro.dev"},
+            {"name": "Zed Editor", "link": "https://zed.dev/"}
           ]
         }
       ]
